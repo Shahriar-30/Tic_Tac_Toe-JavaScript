@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siphat Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- ======== Select it ======= -->
+    <div class="starting ">
+        <div class="sel_container center ">
+            <div class="sel_box center">
+                <div class="sel_btns center">
+                    <button class="sel_btn X ">X</button>
+                    <button class="sel_btn O">O</button>
+                </div>
+                <button class="sel_continue">continue</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======== start it ======= -->
+    <div class="winner hide">
+        <div class="sel_container center">
+            <div class="sel_box center">
+                <div class="sel_winner center">
+                    <i class="fa-solid fa-heart congra_icon"></i>
+                    <div class="congra">winner is <span id="winner"></span></div>
+                </div>
+                <button class="sel_continue agin">Play Agin</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======== game ======= -->
+    <div class="game hide" >
+        <div class="continer center">
+            <div class="pass"></div>
+            <div class="box ">
+                <button class="btn"></button>
+                <button class="btn"></button>
+                <button class="btn"></button>
+                <button class="btn"></button>
+                <button class="btn"></button>
+                <button class="btn"></button>
+                <button class="btn"></button>
+                <button class="btn"></button>
+                <button class="btn"></button>
+            </div>
+            <button class="restar">
+                <i class="fa-solid fa-repeat"></i>
+                Restart
+            </button>
+        </div>
+    </div>
+
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

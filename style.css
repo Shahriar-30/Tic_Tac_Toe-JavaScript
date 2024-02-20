@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #00ffe7;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
+.hide{
+    display: none;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg{
+   background-color: #af3800 !important;
+}
+/* ====================================== */
+.sel_container{
+    height: 100vh;
+    width: 100%;
+    padding: 10px;
+}
+.sel_box{
+    width: 100%;
+    max-width: 500px;
+    background: #00cfc1;
+    border-radius: 15px;
+    height: 300px;
+    gap: 20px;
+    flex-direction: column;
+}
+.sel_btn{
+    padding: 20px 25px;
+    font-weight: 800;
+    font-size: 20px;
+    background-color: #FE621D;
+    border: 3px solid transparent;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.sel_btn:hover{
+    background-color: #af3800 !important;
+}
+.sel_btns{
+    gap: 30px;
+}
+.sel_continue{
+    font-size: 20px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: 800;    
+    transition: all .6s;
+}
+.sel_continue:hover{
+    background-color: #FD5200;
+    color: #fff;
+}
+/*  ======== Select it =======  */
+.sel_winner{
+    flex-direction: column;
+}
+.sel_winner div{
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.congra{
+    color: #fff !important;
+}
+.congra span{
+    color: #FD5200;
+    font-size: 40px;
+    padding: 2px 15px;
+    border-radius: 10px;
+    background: #00000027;
+}
+.congra_icon{
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+}
+/*  ======== start it =======  */
+.continer{
+    height: 100vh;
+    width: 100%;
+    padding: 8px;
+    flex-direction: column;
+    gap: 30px;
+}
+.box{
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    background: #00cfc1;
+    border-radius: 15px;
+    display: grid;
+    place-items: center;
+    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.btn{
+    border-radius: 8px;
+    user-select: none;
+    background-color: #fff;
+    color: #FD5200;
+    font-weight: 800;
+    font-size: 35px;
+    border: 1px solid transparent;
+    width: 100%;
+    height: 100px;
+    cursor: pointer;
+}
+.restar{
+    padding: 10px 30px;
+    font-size: 30px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.pass{
+    color: #FD5200;
+    font-weight: 800;
+    font-size: 35px;
+}
+/*  ======== game =======  */
